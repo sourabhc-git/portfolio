@@ -3,6 +3,7 @@ import '../assets/styles/Contact.scss';
 // import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import DownloadIcon from '@mui/icons-material/Download';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 
@@ -103,9 +104,20 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
-              Send
-            </Button>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              <Button
+                component="a"
+                href="/Sourabh_Chaudhari_Resume.pdf"
+                download
+                variant="contained"
+                endIcon={<DownloadIcon />}
+              >
+                Download Resume
+              </Button>
+              <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
+                Send
+              </Button>
+            </div>
           </Box>
         </div>
       </div>

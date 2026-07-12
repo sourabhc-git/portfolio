@@ -14,6 +14,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
+import DownloadIcon from '@mui/icons-material/Download';
 import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
@@ -98,6 +99,15 @@ function Navigation({parentToChild, modeChange}: any) {
                 {item[0]}
               </Button>
             ))}
+            <Button
+              component="a"
+              href="/Sourabh_Chaudhari_Resume.pdf"
+              download
+              sx={{ color: '#fff', ml: 1 }}
+              endIcon={<DownloadIcon />}
+            >
+              Resume
+            </Button>
           </Box>
         </Toolbar>
       </AppBar>
