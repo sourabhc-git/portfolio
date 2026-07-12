@@ -1,48 +1,43 @@
 .contact_wrapper svg {
   font-size: 1em;
   vertical-align: middle;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
-.contact-form {
-  padding-top: 20px;
-
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
-  }
-
-  button:hover {
-    background-color: #5000ca;
-    color: white;
-  }
-
-  fieldset {
-    background-color: white;
-  }
-}
-
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
-}
-
-.form-flex {
+.contact-card {
+  margin-top: 24px;
+  padding: 28px;
+  border: 1px solid rgba(80, 0, 202, 0.2);
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(240,235,255,0.95));
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
   display: flex;
-  gap: 15px;
-  padding-bottom: 15px;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 560px;
 }
 
-.form-flex .MuiFormControl-root {
-  width: 100%;
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #111;
+  font-size: 1.05rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+  text-decoration: none;
 }
 
-form {
-  width: 100% !important;
+.contact-item:hover {
+  color: #5000ca;
 }
 
-.body-form {
-  width: 100% !important;
-  margin-bottom: 15px !important;
+.resume-button {
+  align-self: flex-start;
+  margin-top: 8px;
+  background-color: #5000ca !important;
+  color: white !important;
+}
+
+.resume-button:hover {
+  background-color: #3d0093 !important;
 }
