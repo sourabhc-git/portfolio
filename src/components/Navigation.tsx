@@ -101,7 +101,7 @@ function Navigation({parentToChild, modeChange}: any) {
             ))}
             <Button
               component="a"
-              href="/Sourabh_Chaudhari_Resume.pdf"
+              href="Sourabh_Chaudhari_Resume.pdf"
               download
               sx={{ color: '#fff', ml: 1 }}
               endIcon={<DownloadIcon />}
