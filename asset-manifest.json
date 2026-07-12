@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fc1d48ba.css",
-    "main.js": "/portfolio/static/js/main.56639c27.js",
+    "main.css": "/portfolio/static/css/main.e26016da.css",
+    "main.js": "/portfolio/static/js/main.adc7efc8.js",
     "static/js/453.b05d8aa5.chunk.js": "/portfolio/static/js/453.b05d8aa5.chunk.js",
-    "static/media/mock04.png": "/portfolio/static/media/mock04.f7b5679efade992a078c.png",
     "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock01.png": "/portfolio/static/media/mock01.61bd486a54bf6e17ee5a.png",
     "static/media/background-image.jpg": "/portfolio/static/media/background-image.89a43ea51f8e123fb9a8.jpg",
-    "static/media/mock02.png": "/portfolio/static/media/mock02.bced48ae9cdda3acf1a3.png",
-    "static/media/mock03.png": "/portfolio/static/media/mock03.a4600719e0b5d2a3155b.png",
     "static/media/profilepic.jpeg": "/portfolio/static/media/profilepic.3070c09c8684de1f9c1d.jpeg",
+    "static/media/nvidia.png": "/portfolio/static/media/nvidia.b61c2f56c028c914c57d.png",
+    "static/media/se.avif": "/portfolio/static/media/se.09e90c3c175a6c4b3cae.avif",
     "index.html": "/portfolio/index.html",
-    "main.fc1d48ba.css.map": "/portfolio/static/css/main.fc1d48ba.css.map",
-    "main.56639c27.js.map": "/portfolio/static/js/main.56639c27.js.map",
+    "main.e26016da.css.map": "/portfolio/static/css/main.e26016da.css.map",
+    "main.adc7efc8.js.map": "/portfolio/static/js/main.adc7efc8.js.map",
     "453.b05d8aa5.chunk.js.map": "/portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc1d48ba.css",
-    "static/js/main.56639c27.js"
+    "static/css/main.e26016da.css",
+    "static/js/main.adc7efc8.js"
   ]
 }
