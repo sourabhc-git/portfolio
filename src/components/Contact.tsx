@@ -107,7 +107,7 @@ function Contact() {
             <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
               <Button
                 component="a"
-                href="/Sourabh_Chaudhari_Resume.pdf"
+                href="Sourabh_Chaudhari_Resume.pdf"
                 download
                 variant="contained"
                 endIcon={<DownloadIcon />}
